@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Task Manager</h1>
+            <p>Organize your studies. Stay on track.</p>
+        </header>
+
+        <section class="task-form">
+            <h2>Add a New Task</h2>
+
+            <form id="taskForm">
+                <label for="title">Task Title</label>
+                <input type="text" id="title" placeholder="e.g. Complete Python assignment" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="e.g. Python">
+
+                <label for="due_date">Due Date</label>
+                <input type="date" id="due_date">
+
+                <button type="submit">+ Add Task</button>
+            </form>
+            <p id="message"></p>
+        </section>
+
+        <section class="task-section">
+            <h2>My Tasks</h2>
+            <div id="taskList">Loading tasks...</div>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
