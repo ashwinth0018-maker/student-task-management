@@ -1,4 +1,4 @@
-#Student Task Manager
+# Student Task Manager
 
 A simple web application that helps students organize and manage their academic tasks.
 
@@ -6,7 +6,7 @@ A simple web application that helps students organize and manage their academic 
 
 Student Task Manager is a beginner-friendly full-stack web project built using Python and Flask. Students can add their tasks, view them, update their task status, and delete tasks when they are no longer needed.
 
-##Technologies Used
+## Technologies Used
 
 - Python
 - Flask
@@ -15,7 +15,7 @@ Student Task Manager is a beginner-friendly full-stack web project built using P
 - CSS
 - JavaScript
 
-##Features
+## Features
 
 - Add a new task
 - Enter subject and due date
